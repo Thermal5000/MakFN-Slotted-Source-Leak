@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="driver.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mainbackup.cpp" />
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="Mapper\intel_driver.cpp">
+      <Filter>Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\kdmapper.cpp">
+      <Filter>Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\portable_executable.cpp">
+      <Filter>Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\service.cpp">
+      <Filter>Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\utils.cpp">
+      <Filter>Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="integrity check.cpp">
+      <Filter>others</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Definitions.h" />
+    <ClInclude Include="defs.h" />
+    <ClInclude Include="driver.h" />
+    <ClInclude Include="Offsets.h" />
+    <ClInclude Include="Other\font.h" />
+    <ClInclude Include="Other\iconcpp.h" />
+    <ClInclude Include="Other\icons.h" />
+    <ClInclude Include="Other\other.h" />
+    <ClInclude Include="Other\utils.h" />
+    <ClInclude Include="Protection\StringProtect.hpp" />
+    <ClInclude Include="Other\d3dx9.h">
+      <Filter>d3dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="D3XD\d3dx9.h">
+      <Filter>d3dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="D3XD\d3dx9anim.h">
+      <Filter>d3dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="D3XD\d3dx9core.h">
+      <Filter>d3dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="D3XD\d3dx9effect.h">
+      <Filter>d3dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="D3XD\d3dx9math.h">
+      <Filter>d3dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="D3XD\d3dx9mesh.h">
+      <Filter>d3dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="D3XD\d3dx9shader.h">
+      <Filter>d3dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="D3XD\d3dx9shape.h">
+      <Filter>d3dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="D3XD\d3dx9tex.h">
+      <Filter>d3dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="D3XD\d3dx9xof.h">
+      <Filter>d3dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="keybind.h" />
+    <ClInclude Include="window.h" />
+    <ClInclude Include="overlay.h" />
+    <ClInclude Include="curl\curl.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\curlver.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\easy.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\mprintf.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\multi.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\stdcheaders.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\system.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\typecheck-gcc.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\urlapi.h">
+      <Filter>curl</Filter>
+    </ClInclude>
+    <ClInclude Include="others\auth.h">
+      <Filter>others</Filter>
+    </ClInclude>
+    <ClInclude Include="others\program.h">
+      <Filter>others</Filter>
+    </ClInclude>
+    <ClInclude Include="others\xor.h">
+      <Filter>others</Filter>
+    </ClInclude>
+    <ClInclude Include="bytes.h" />
+    <ClInclude Include="test.h" />
+    <ClInclude Include="Mapper\driver.h">
+      <Filter>Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\intel_driver.hpp">
+      <Filter>Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\intel_driver_resource.hpp">
+      <Filter>Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\kdmapper.hpp">
+      <Filter>Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\nt.hpp">
+      <Filter>Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\portable_executable.hpp">
+      <Filter>Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\service.hpp">
+      <Filter>Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\utils.hpp">
+      <Filter>Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="api.h" />
+    <ClInclude Include="api2.h" />
+    <ClInclude Include="Lazy.h">
+      <Filter>others</Filter>
+    </ClInclude>
+    <ClInclude Include="debugdetect.h">
+      <Filter>others</Filter>
+    </ClInclude>
+    <ClInclude Include="integrity_check.h">
+      <Filter>others</Filter>
+    </ClInclude>
+    <ClInclude Include="Obsidium Sdk\keygen64.h">
+      <Filter>Obsidium Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Obsidium Sdk\obsidium.h">
+      <Filter>Obsidium Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Obsidium Sdk\obsidium64.h">
+      <Filter>Obsidium Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="integrity.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="d3dx9">
+      <UniqueIdentifier>{fd33d90d-fcc5-4799-8907-f5d4ad700f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{042be057-e48d-4561-9701-06b6c8168d23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto">
+      <UniqueIdentifier>{1e7bc01a-4654-4384-974f-b7f4abe7aa97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{36ebdce8-968d-4e0e-a320-3613404141c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="others">
+      <UniqueIdentifier>{acb31b17-6311-4622-ae7e-2f675bab1540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mapper">
+      <UniqueIdentifier>{1b118881-d428-48ad-b51f-44a86646a53e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obsidium Sdk">
+      <UniqueIdentifier>{49f9a3e7-6f64-4513-be71-e9e378010c30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="D3XD\d3dx9.lib">
+      <Filter>d3dx9</Filter>
+    </Library>
+    <Library Include="crypto\cryptlib.lib">
+      <Filter>crypto</Filter>
+    </Library>
+    <Library Include="curl\libcurl.lib">
+      <Filter>curl</Filter>
+    </Library>
+    <Library Include="Obsidium Sdk\keygen64.lib">
+      <Filter>Obsidium Sdk</Filter>
+    </Library>
+    <Library Include="Obsidium Sdk\obsidium64.a">
+      <Filter>Obsidium Sdk</Filter>
+    </Library>
+    <Library Include="Obsidium Sdk\obsidium64.lib">
+      <Filter>Obsidium Sdk</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D3XD\d3dx9math.inl">
+      <Filter>d3dx9</Filter>
+    </None>
+    <None Include="curl\Makefile.am">
+      <Filter>curl</Filter>
+    </None>
+    <None Include="curl\Makefile.in">
+      <Filter>curl</Filter>
+    </None>
+    <None Include="Mapper\README.md">
+      <Filter>Mapper</Filter>
+    </None>
+    <None Include="Obsidium Sdk\keygen64.dll">
+      <Filter>Obsidium Sdk</Filter>
+    </None>
+    <None Include="Obsidium Sdk\obsidium64.def">
+      <Filter>Obsidium Sdk</Filter>
+    </None>
+    <None Include="Obsidium Sdk\obsidium64.dll">
+      <Filter>Obsidium Sdk</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Obsidium Sdk\obsidiumlib.obj">
+      <Filter>Obsidium Sdk</Filter>
+    </Object>
+  </ItemGroup>
+</Project>

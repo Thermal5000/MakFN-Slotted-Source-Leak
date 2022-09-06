@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="driver.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="defs.h" />
+    <ClInclude Include="driver.h" />
+    <ClInclude Include="D3XD\d3dx9.h">
+      <Filter>D3XD</Filter>
+    </ClInclude>
+    <ClInclude Include="D3XD\d3dx9anim.h">
+      <Filter>D3XD</Filter>
+    </ClInclude>
+    <ClInclude Include="D3XD\d3dx9core.h">
+      <Filter>D3XD</Filter>
+    </ClInclude>
+    <ClInclude Include="D3XD\d3dx9effect.h">
+      <Filter>D3XD</Filter>
+    </ClInclude>
+    <ClInclude Include="D3XD\d3dx9math.h">
+      <Filter>D3XD</Filter>
+    </ClInclude>
+    <ClInclude Include="D3XD\d3dx9mesh.h">
+      <Filter>D3XD</Filter>
+    </ClInclude>
+    <ClInclude Include="D3XD\d3dx9shader.h">
+      <Filter>D3XD</Filter>
+    </ClInclude>
+    <ClInclude Include="D3XD\d3dx9shape.h">
+      <Filter>D3XD</Filter>
+    </ClInclude>
+    <ClInclude Include="D3XD\d3dx9tex.h">
+      <Filter>D3XD</Filter>
+    </ClInclude>
+    <ClInclude Include="D3XD\d3dx9xof.h">
+      <Filter>D3XD</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\d3dx9.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\font.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\iconcpp.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\icons.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\keybind.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\other.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\utils.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection\StringProtect.hpp" />
+    <ClInclude Include="Definitions.h" />
+    <ClInclude Include="Offsets.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="D3XD">
+      <UniqueIdentifier>{5c12783d-1abd-4c08-b673-ab9d5df89b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{15dcf003-422c-448e-9232-b35e6f214b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{36d794a2-03ab-4ac8-9932-72f60bc163de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="D3XD\d3dx9.lib">
+      <Filter>D3XD</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D3XD\d3dx9math.inl">
+      <Filter>D3XD</Filter>
+    </None>
+  </ItemGroup>
+</Project>
